@@ -19,6 +19,8 @@ Navigate to the project directory and install the Composer dependencies by runni
 
 ```bash
 composer install
+npm install vite --save-dev
+npm run build
 ```
 
 ### 3. Set Up Environment Variables
@@ -53,7 +55,7 @@ DB_PASSWORD=database_password
 DB_CONNECTION=sqlite
 ```
 
-if you use SQLite as a database then make sure you have enabled `extension=sqlite3` and `extension=pdo_sqlite` in `php.ini` and create a `database.sqlite` file in the database folder of you project's root directory.
+if you want to use SQLite as a database then make sure you have enabled `extension=sqlite3` and `extension=pdo_sqlite` in `php.ini` and create a `database.sqlite` file in the database folder of you project's root directory.
 
 ### 5. Run Database Migrations
 
