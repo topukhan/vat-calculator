@@ -1,6 +1,6 @@
 # VAT Calculator
 
-This project is a simple VAT calculator built with Laravel 11, designed to calculate VAT amounts based on user input.
+This project is a simple VAT calculator built with Laravel, designed to calculate VAT amounts based on user input.
 
 ## Setup Instructions
 
@@ -61,6 +61,12 @@ Run the database migrations to create the necessary tables:
 
 ```bash
 php artisan migrate
+```
+
+`Optional`: You can run seeder to seed some user data using:
+
+```bash
+php artisan db:seed --class=CustomUserSeeder
 ```
 
 ### 6. Serve the Application
